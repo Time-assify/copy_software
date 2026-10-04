@@ -1,0 +1,22 @@
+# 本地安全扫描缓存（Mimosa 扫描历史，非项目文件）
+.mimosa/
+
+# 编译中间产物
+*.pdb
+*.obj
+*.cache
+bin/
+obj/
+publish/
+
+# 成品 exe：编译产物，通过 GitHub Releases 分发，不入库
+*.exe
+final/
+
+# 背景图原始素材（用户自备壁纸，成品嵌入图在 src/wallpaper.jpg）
+图片/
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
